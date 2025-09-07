@@ -1,10 +1,12 @@
-🏦 Bank System with Currency Exchange
+# 🏦 Bank System with Currency Exchange
 
 A C++ console-based Bank Management System built using Object-Oriented Programming (OOP) principles.
 This project simulates real-world banking operations such as managing users and clients, handling transactions, and performing currency exchanges.
 
-✨ Features
-🔑 Authentication & Users
+<hr>
+
+## ✨ Features
+### 🔑 Authentication & Users
 
 Secure login system with username/password.
 
@@ -12,7 +14,7 @@ User management (add, update, delete, list).
 
 Access control through permissions.
 
-👤 Clients
+### 👤 Clients
 
 Add new bank clients.
 
@@ -24,7 +26,7 @@ Search/find clients by ID or name.
 
 View all clients in the system.
 
-💰 Transactions
+### 💰 Transactions
 
 Deposit money into accounts.
 
@@ -34,7 +36,7 @@ Transfer between accounts (with logs).
 
 Check total balance for all clients.
 
-💱 Currency Exchange
+### 💱 Currency Exchange
 
 Built-in currency database.
 
@@ -42,13 +44,13 @@ Currency calculator.
 
 List available currencies.
 
-📁 Data Persistence
+### 📁 Data Persistence
 
 Stores data in text files (Users.txt, bank_clients.txt).
 
 Keeps a transaction log.
 
-🏗️ Project Structure
+### 🏗️ Project Structure
 📂 Bank_system_oop-exchange_currencies-
  ┣ 📄 bank_system(oop).cpp         # Main entry point
  ┣ 📄 cls_user.h                   # User class (login, permissions)
@@ -63,7 +65,7 @@ Keeps a transaction log.
  ┣ 📄 bank_clients.txt             # Client data storage
  ┗ ... (many screen classes for menus & UI)
 
-🎮 Usage Example
+### 🎮 Usage Example
 
 Start the program.
 
@@ -81,7 +83,7 @@ Currency exchange
 
 Data is automatically saved in text files.
 
-📚 Concepts Practiced
+### 📚 Concepts Practiced
 
 Object-Oriented Programming (OOP)
 
@@ -95,7 +97,7 @@ Menu-driven console apps
 
 Separation of concerns
 
-🔮 Future Improvements
+### 🔮 Future Improvements
 
 Switch from text files → database (SQLite/MySQL).
 
